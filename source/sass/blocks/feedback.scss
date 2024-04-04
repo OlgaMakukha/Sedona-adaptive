@@ -1,0 +1,46 @@
+.feedback-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+.feedback-title {
+    font-size: $font-size_h2-mobile;
+    text-transform: uppercase;
+}
+
+.feedback-text {
+    font-size: $font-size_body;
+    text-transform: uppercase;
+    line-height: 24px;
+
+    max-width: 435px;
+}
+
+.btn-feedback {
+    width: 100%;
+    max-width: 435px;
+
+    background-color: $color-light-blue;
+    color: $color-white;
+
+    font-size: $font-size_h2-mobile;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 26px;
+
+    padding: 14px 32px 17px;
+}
+
+@media (min-width: $tablet-width) {
+    .feedback-wrapper {
+        padding: 60px 20px;
+    }
+
+    .feedback-title {
+        font-size: $font-size_h2-tablet-desctop;
+    }
+}

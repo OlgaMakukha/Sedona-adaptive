@@ -1,0 +1,200 @@
+.gallary-section {
+    margin: 0 20px;
+}
+
+.about-wrapper__text-gallary::after {
+    content: "";
+}
+
+.about-wrapper__text {
+    padding: 0;
+}
+
+.about-text__gallary {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+}
+
+.gallary-photos__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.photo {
+    width: 280px;
+    height: 280px;
+
+    margin-bottom: 10px;
+}
+
+.photo-post:nth-of-type(1) .photo {
+    background-image: url("/source/img/catalog/photo-1-mobile.jpg");
+}
+
+.photo-post:nth-of-type(2) .photo {
+    background-image: url("/source/img/catalog/photo-2-mobile.jpg");
+}
+
+.photo-post:nth-of-type(3) .photo {
+    background-image: url("/source/img/catalog/photo-3-mobile.jpg");
+}
+
+.photo-post:nth-of-type(4) .photo {
+    background-image: url("/source/img/catalog/photo-4-mobile\ 1.jpg");
+}
+
+.photo-title {
+    font-size: $font-size_body;
+    text-transform: uppercase;
+
+    margin-bottom: 4px;
+}
+
+.photo-autor {
+    font-size: $font-size_body;
+
+    margin-bottom: 10px;
+}
+
+.photo-like {
+    font-size: $font-size_body;
+    font-weight: bold;
+}
+
+.like__wrapper {
+    display: flex;
+    align-items: end;
+    gap: 14px;
+
+    margin-bottom: 15px;
+}
+
+.btn-like {
+    background: url("/source/img/catalog/like-icon.svg") no-repeat;
+    width: 23px;
+    height: 21px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.photo-post {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: $tablet-width) {
+    .about-text__gallary {
+        border: none;
+    }
+
+    .gallary-photos__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .photo-post {
+        border: none;
+    }
+
+    .photo {
+        width: 324px;
+        height: 267px;
+
+        margin-bottom: 0;
+    }
+
+    .photo-post:nth-of-type(1) .photo {
+        background-image: url("/source/img/catalog/photo-1-tablet.jpg");
+        width: 648px;
+        height: 267px;
+    }
+    
+    .photo-post:nth-of-type(2) .photo {
+        background-image: url("/source/img/catalog/photo-2-tablet.jpg");
+    }
+    
+    .photo-post:nth-of-type(3) .photo {
+        background-image: url("/source/img/catalog/photo-3-tablet.jpg");
+    }
+    
+    .photo-post:nth-of-type(4) .photo {
+        background-image: url("/source/img/catalog/photo-4-tablet.jpg");
+    }
+
+    .like__wrapper {
+        margin: 0;
+    }
+
+    .photo-footer {
+        background-color: #f2f2f2;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 20px 20px 15px;
+    }
+
+    .photo-post:nth-of-type(3) .photo-footer {
+        background-color: #eaeaea;
+    } 
+    
+    .gallary-section {
+        margin-bottom: 55px;
+    }
+}
+
+@media (min-width: $desctop-width) {
+    .gallary-photos__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 330px);
+    }
+
+    .photo {
+        width: 400px;
+        height: 267px;
+    }
+
+    .photo-footer {
+        margin-top: -85px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: $color-white;
+    }
+
+    .photo-post:nth-of-type(3) .photo-footer {
+        background-color: rgba(0, 0, 0, 0.3);
+        color: $color-white;
+    }
+    
+    .photo-post:nth-of-type(1) {
+        grid-column: 1/4;
+    }
+
+    .photo-post:nth-of-type(1) .photo {
+        background-image: url("/source/img/catalog/photo-1-desktop.jpg");
+        width: 1200px;
+        height: 400px;
+    }
+    
+    .photo-post:nth-of-type(2) .photo {
+        background-image: url("/source/img/catalog/photo-2-desktop.jpg");
+    }
+    
+    .photo-post:nth-of-type(3) .photo {
+        background-image: url("/source/img/catalog/photo-3-desktop.jpg");
+    }
+    
+    .photo-post:nth-of-type(4) .photo {
+        background-image: url("/source/img/catalog/photo-4-desktop.jpg");
+    }
+
+    .btn-like {
+        background: url("/source/img/catalog/like-icon-white.svg") no-repeat;
+    }
+}

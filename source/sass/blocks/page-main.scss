@@ -1,0 +1,79 @@
+.page-main {
+    overflow-x: hidden;
+}
+
+.main-bg {
+    background: url("/source/img/back-mobile.jpg") no-repeat center center;
+    width: 100%;
+    height: 389px;
+}
+
+.main-bg__catalog {
+    background: url("/source/img/back-mobile.jpg") no-repeat center center;
+    width: 100%;
+    height: 158px;
+}
+
+.main-bg__catalog::after {
+    content: url('/source/img/catalog/SEDONA.png');
+    width: 229px;
+    height: 39px;
+    display: flex;
+    margin: auto;
+    padding-top: 52px;
+}
+
+.main-bg::after {
+    content: url('/source/img/text-index-mobile.svg');
+    width: 282px;
+    height: 214px;
+    display: flex;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.main-section__container::after {
+    content: url('/source/img/intro-triangle.svg');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 57px;
+    top: -56px;
+}
+
+@media (min-width: $tablet-width) {
+    .main-bg {
+    background: url("/source/img/back-desktop.jpg") no-repeat center center;
+    width: 100%;
+    height: 518px;
+    }
+
+    .main-bg::after {
+        content: url('/source/img/text-index-tab-desc.svg');
+        width: 461px;
+        height: 350px;
+        display: flex;
+        margin: auto;
+    }
+
+    .main-bg__catalog {
+        background: url("/source/img/back-desktop.jpg") no-repeat center center;
+        width: 100%;
+        height: 290px;
+        }
+
+    .main-bg__catalog::after {
+        content: url('/source/img/catalog/SEDONA-tablet.png');
+        width: 457px;
+        height: 78px;
+        padding-top: 95px;
+    }
+}
+
+@media (min-width: $desctop-width) {
+    .page-main {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}

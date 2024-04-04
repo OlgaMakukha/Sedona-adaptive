@@ -1,0 +1,69 @@
+@import "./blocks/variables.scss";
+@import "./blocks/visually-hidden.scss";
+@import "./blocks/fonts.scss";
+@import "./blocks/page-header.scss";
+@import "./blocks/page-main.scss";
+@import "./blocks/about-section.scss";
+@import "./blocks/feedback.scss";
+@import "./blocks/map-section.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/gallary-section.scss";
+@import "./blocks/video-section.scss";
+@import "./blocks/form.scss";
+
+.page-body {
+    font-family: "PT Sans";
+    margin: 0;
+    min-height: 100%;
+    background-color: $color-white;
+    color: $color-black;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+
+    font-family: "PT Sans";
+}
+
+.btn:hover {
+    background-color: $color-blue;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
