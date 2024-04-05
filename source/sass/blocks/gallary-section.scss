@@ -30,19 +30,19 @@
 }
 
 .photo-post:nth-of-type(1) .photo {
-    background-image: url("/source/img/catalog/photo-1-mobile.jpg");
+    background-image: url("/img/catalog/photo-1-mobile.jpg");
 }
 
 .photo-post:nth-of-type(2) .photo {
-    background-image: url("/source/img/catalog/photo-2-mobile.jpg");
+    background-image: url("/img/catalog/photo-2-mobile.jpg");
 }
 
 .photo-post:nth-of-type(3) .photo {
-    background-image: url("/source/img/catalog/photo-3-mobile.jpg");
+    background-image: url("/img/catalog/photo-3-mobile.jpg");
 }
 
 .photo-post:nth-of-type(4) .photo {
-    background-image: url("/source/img/catalog/photo-4-mobile\ 1.jpg");
+    background-image: url("/img/catalog/photo-4-mobile\ 1.jpg");
 }
 
 .photo-title {
@@ -72,7 +72,7 @@
 }
 
 .btn-like {
-    background: url("/source/img/catalog/like-icon.svg") no-repeat;
+    background: url("/img/catalog/like-icon.svg") no-repeat;
     width: 23px;
     height: 21px;
 
@@ -109,21 +109,21 @@
     }
 
     .photo-post:nth-of-type(1) .photo {
-        background-image: url("/source/img/catalog/photo-1-tablet.jpg");
+        background-image: url("/img/catalog/photo-1-tablet.jpg");
         width: 648px;
         height: 267px;
     }
     
     .photo-post:nth-of-type(2) .photo {
-        background-image: url("/source/img/catalog/photo-2-tablet.jpg");
+        background-image: url("/img/catalog/photo-2-tablet.jpg");
     }
     
     .photo-post:nth-of-type(3) .photo {
-        background-image: url("/source/img/catalog/photo-3-tablet.jpg");
+        background-image: url("/img/catalog/photo-3-tablet.jpg");
     }
     
     .photo-post:nth-of-type(4) .photo {
-        background-image: url("/source/img/catalog/photo-4-tablet.jpg");
+        background-image: url("/img/catalog/photo-4-tablet.jpg");
     }
 
     .like__wrapper {
@@ -177,24 +177,24 @@
     }
 
     .photo-post:nth-of-type(1) .photo {
-        background-image: url("/source/img/catalog/photo-1-desktop.jpg");
+        background-image: url("/img/catalog/photo-1-desktop.jpg");
         width: 1200px;
         height: 400px;
     }
     
     .photo-post:nth-of-type(2) .photo {
-        background-image: url("/source/img/catalog/photo-2-desktop.jpg");
+        background-image: url("/img/catalog/photo-2-desktop.jpg");
     }
     
     .photo-post:nth-of-type(3) .photo {
-        background-image: url("/source/img/catalog/photo-3-desktop.jpg");
+        background-image: url("/img/catalog/photo-3-desktop.jpg");
     }
     
     .photo-post:nth-of-type(4) .photo {
-        background-image: url("/source/img/catalog/photo-4-desktop.jpg");
+        background-image: url("/img/catalog/photo-4-desktop.jpg");
     }
 
     .btn-like {
-        background: url("/source/img/catalog/like-icon-white.svg") no-repeat;
+        background: url("/img/catalog/like-icon-white.svg") no-repeat;
     }
 }

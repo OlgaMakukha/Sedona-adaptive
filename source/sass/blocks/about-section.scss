@@ -16,7 +16,7 @@
 }
 
 .about-wrapper__text::after {
-    content: url('/source/img/white\ copy\ 2.png');
+    content: url('/img/white\ copy\ 2.png');
     position: relative;
     display: flex;
     justify-content: center;
@@ -87,15 +87,16 @@
 }
 
 .about-wrapper-content .bg-content-img:nth-child(2) {
-    background: url('/source/img/photo-city-mobile.jpg') no-repeat center;
+    background: url('/img/photo-city-mobile.jpg') no-repeat center;
+    margin-bottom: 20px;
 }
 
 .about-wrapper-content .bg-content-img:nth-child(7) {
-    background: url('/source/img/photo-bridge-mobile\ \(2\).jpg') no-repeat center;
+    background: url('/img/photo-bridge-mobile\ \(2\).jpg') no-repeat center;
 }
 
 .bg-content:nth-child(3) .bg-icon {
-    background: url("/source/img/icon-house-mobile.svg") no-repeat;
+    background: url("/img/icon-house-mobile.svg") no-repeat;
     width: 75px;
     height: 37px;
 
@@ -106,7 +107,7 @@
 }
 
 .bg-content:nth-child(4) .bg-icon {
-    background: url("/source/img/icon-gift-mobile.svg") no-repeat;
+    background: url("/img/icon-gift-mobile.svg") no-repeat;
     width: 75px;
     height: 37px;
 
@@ -117,7 +118,7 @@
 }
 
 .bg-content:nth-child(5) .bg-icon {
-    background: url("/source/img/icon-burger-mobile.svg") no-repeat;
+    background: url("/img/icon-burger-mobile.svg") no-repeat;
     width: 75px;
     height: 37px;
 
@@ -184,12 +185,14 @@
     }
     
     .about-wrapper-content .bg-content-img:nth-child(2) {
-        background: url("/source/img/photo-city-desctop.jpg") no-repeat;
+        background: url("/img/photo-city-desctop.jpg") no-repeat;
         height: 256px;
+
+        margin-bottom: 0;
     }
 
     .about-wrapper-content .bg-content-img:nth-child(7) {
-        background: url('/source/img/photo-bridge-desctop.jpg') no-repeat;
+        background: url('/img/photo-bridge-desctop.jpg') no-repeat;
         height: 256px;
     }
 
@@ -218,7 +221,7 @@
     }
 
     .about-wrapper-content .bg-content:nth-child(3) .bg-icon {
-        background: url('/source/img/icon-house.svg') no-repeat;
+        background: url('/img/icon-house.svg') no-repeat;
         width: 75px;
         height: 72px;
         margin: 0 auto;
@@ -226,7 +229,7 @@
     }
     
     .about-wrapper-content .bg-content:nth-child(4) .bg-icon {
-        background: url('/source/img/icon-gift.svg') no-repeat;
+        background: url('/img/icon-gift.svg') no-repeat;
         width: 64px;
         height: 75px;
         margin: 0 auto;
@@ -235,7 +238,7 @@
     }
     
     .about-wrapper-content .bg-content:nth-child(5) .bg-icon {
-        background: url('/source/img/icon-burger.svg') no-repeat;
+        background: url('/img/icon-burger.svg') no-repeat;
         width: 76px;
         height: 67px;
 

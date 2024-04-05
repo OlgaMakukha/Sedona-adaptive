@@ -191,7 +191,7 @@ input[type=checkbox] {
 }
 
 .form-attractions__checkbox-input:checked + label::after {
-    content: url("/source/img/catalog/tick.svg");
+    content: url("/img/catalog/tick.svg");
     position: absolute;
     top: 17px;
     left: 17px;
