@@ -84,6 +84,10 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
+.btn-like-add {
+    background: url("/img/catalog/like-add.svg") no-repeat;
+}
+
 @media (min-width: $tablet-width) {
     .about-text__gallary {
         border: none;
@@ -128,6 +132,16 @@
 
     .like__wrapper {
         margin: 0;
+    }
+
+    .btn-like-add {
+        background: url("/img/catalog/like-add.svg") no-repeat;
+    }
+
+    .likes-number {
+        font-size: $font-size_body;
+        color: $color-white;
+        margin-left: 24px;
     }
 
     .photo-footer {
@@ -196,5 +210,15 @@
 
     .btn-like {
         background: url("/img/catalog/like-icon-white.svg") no-repeat;
+    }
+
+    .likes-number {
+        font-size: $font-size_body;
+        color: $color-white;
+        margin-left: 24px;
+    }
+
+    .btn-like-add {
+        background: url("/img/catalog/like-add.svg") no-repeat;
     }
 }

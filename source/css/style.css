@@ -38,7 +38,6 @@
 
 .main-nav,
 .main-nav__opened {
-  min-height: 279px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -49,6 +48,10 @@
   font-weight: 700;
   color: #fff;
   background-color: #fff;
+}
+
+.main-nav__opened {
+  min-height: 279px;
 }
 
 .main-nav__list {
@@ -82,6 +85,10 @@
   background-color: transparent;
   border: 0;
   cursor: pointer;
+}
+
+.main-nav__closed .main-nav__item {
+  display: none;
 }
 
 .main-nav__closed .main-nav__toggle::before,
@@ -121,8 +128,12 @@
     margin: 0 auto;
   }
 
-  .main-nav__close, .main-nav__toggle {
+  .main-nav__toggle {
     display: none;
+  }
+
+  .main-nav__closed .main-nav__item {
+    display: block;
   }
 
   .main-nav {
@@ -731,6 +742,10 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
+.btn-like-add {
+  background: url("/img/catalog/like-add.svg") no-repeat;
+}
+
 @media (min-width: 768px) {
   .about-text__gallary {
     border: none;
@@ -774,6 +789,16 @@
 
   .like__wrapper {
     margin: 0;
+  }
+
+  .btn-like-add {
+    background: url("/img/catalog/like-add.svg") no-repeat;
+  }
+
+  .likes-number {
+    font-size: 0.875rem;
+    color: #fff;
+    margin-left: 24px;
   }
 
   .photo-footer {
@@ -839,6 +864,16 @@
 
   .btn-like {
     background: url("/img/catalog/like-icon-white.svg") no-repeat;
+  }
+
+  .likes-number {
+    font-size: 0.875rem;
+    color: #fff;
+    margin-left: 24px;
+  }
+
+  .btn-like-add {
+    background: url("/img/catalog/like-add.svg") no-repeat;
   }
 }
 .video-wrapper {

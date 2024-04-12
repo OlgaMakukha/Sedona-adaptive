@@ -10,7 +10,6 @@
 
 .main-nav,
 .main-nav__opened {
-    min-height: 279px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -29,6 +28,10 @@
 
     color: #fff;
     background-color: #fff;
+}
+
+.main-nav__opened {
+    min-height: 279px;
 }
 
 .main-nav__list {
@@ -73,6 +76,10 @@
     cursor: pointer;
 }
 
+.main-nav__closed .main-nav__item {
+    display: none;
+}
+
 .main-nav__closed .main-nav__toggle::before, 
 .main-nav__opened .main-nav__toggle::before {
     content: "";
@@ -114,8 +121,12 @@
         margin: 0 auto;
     }
 
-    .main-nav__close, .main-nav__toggle {
+    .main-nav__toggle {
         display: none;
+    }
+
+    .main-nav__closed .main-nav__item {
+        display: block;
     }
 
     .main-nav {
