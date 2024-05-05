@@ -1,0 +1,1 @@
+let like=document.querySelector(".btn-like"),likesNumber=document.querySelector(".likes-number");like.onclick=function(){like.classList.contains("btn-like-add")?likesNumber.textContent--:likesNumber.textContent++,like.classList.toggle("btn-like-add")};
